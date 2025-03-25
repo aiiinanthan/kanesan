@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Simple Form</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h2>Contact Form</h2>
+    <form id="contactForm" action="/submit" method="post">
+        <label>Name:</label>
+        <input type="text" name="name" required>
+        <br>
+        <label>Email:</label>
+        <input type="email" name="email" required>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+    <p id="response"></p>
+    <script src="/script.js"></script>
+</body>
+</html>
